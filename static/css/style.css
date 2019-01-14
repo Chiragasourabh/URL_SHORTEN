@@ -1,0 +1,94 @@
+
+body{margin:0;height:100%;overflow-x:hidden;font-family:"proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;font-weight:300;line-height:20px;color:#a3aaae}
+body:after{
+  content: "beta";
+  position: fixed;
+  width: 80px;
+  height: 25px;
+  background: #7447AE;
+  top: 7px;
+  left: -20px;
+  text-align: center;
+  font-size: 13px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  line-height: 27px;
+  -ms-transform:rotate(-45deg);
+  -webkit-transform:rotate(-45deg);
+  transform:rotate(-45deg);
+}
+a{color:#7447AE;text-decoration:none}
+a:hover{color:#98370c;text-decoration:underline}
+
+
+.shorten-input{width:100%;height:60px;padding:14.4px 23px;font-family:proxima-nova,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:18px;font-weight:300;color:#7f898e;line-height:32px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;border-width:0;box-shadow:0 0 0 1px #fff;-webkit-appearance:none}
+.shorten-input:focus,input.text:focus{color:#7447AE;background-color:#fef7f4;box-shadow:0 0 0 1px rgba(238,97,35,.75),0 0 4px 2px rgba(238,97,35,.2),inset 0 1px 2px 0 rgba(238,97,35,.2)}
+
+
+.container{max-width:920px;margin-right:auto;margin-left:auto}
+
+
+.join{font-size:21px;color:#fff;margin:35px 0 45px}
+
+
+@media(min-width:1400px){
+	body{font-size:15.6px;line-height:24px}
+	.container{max-width:1160px}
+	.mid-container{width:67%}h2{font-size:31.92px;line-height:40.32px;margin:23.887872px 0 19.90656px 0}
+
+
+.container-pod{padding-top:48px;padding-bottom:48px}
+
+
+.page-title {
+    font-family: "brandon-grotesque","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    color: #fff;
+    line-height: 28px;
+    margin-top: 50px;
+}
+
+fieldset{border:0;padding:0;position:relative}
+*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+
+
+.button.button-primary{color:#fff;background-color:#7447AE}
+.button.button-primary:hover{background-color:#8D53D8}
+.button.shorten-button{border-radius:0 3px 3px 0;position:absolute;top:0;right:0;height:60px;padding:20.4px 28.8px}
+
+
+.link-container{background-color:#fff;border-radius:3px;margin-left:-20px;margin-right:-20px;-webkit-box-shadow:0 1px 3px 0 rgba(0,0,0,0.05);-moz-box-shadow:0 1px 3px 0 rgba(0,0,0,0.05);box-shadow:0 2px 5px 0 rgba(0,0,0,0.05)}
+.mid-container{margin-top:50px;margin-left:auto;margin-right:auto;position:relative}
+
+.unauth_capsule{margin-top:10px;border-bottom:1px solid #e3e6e7;padding-bottom:19px}
+
+a.short-url{font-size:13px;line-height:20px;font-weight:600;color:#7447AE;text-decoration:none}
+
+.copy-input{position:absolute;left:-10000px}
+
+.button{display:inline-block;text-align:center;vertical-align:middle;padding:8px 16px;margin:0;font-size:11px;font-weight:500;font-family:brandon-grotesque,"Helvetica Neue",Helvetica,Arial,sans-serif;line-height:20px;text-transform:uppercase;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;color:#7447AE;-webkit-box-shadow:0 0 0 1px #7447AE;box-shadow:0 0 0 1px #7447AE;text-rendering:optimizelegibility;border:0 !important;background:#fff}
+.button:hover{text-decoration:none}
+.button.copy{height:21px;font-size:10px;padding:0 12px;margin-left:10px;display:inline-block}
+.button.copy:hover{color:#fff;background-color:#7447AE}
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+.blue-arrow-small{
+	width:17px;
+	height:15px;
+	display:inline-block;
+	vertical-align:-2px;
+	background:url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTciIGhlaWdodD0iMTUiIHZpZXdCb3g9IjAgMCAxNyAxNSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+QXJyb3cgQ29weSA0PC90aXRsZT48ZyBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZT0iIzYxYjNkZSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMSA3Ljg3MmgxNS4wNk05Ljk3IDE0LjM0Mmw2LjUtNi41NTYtNi41LTYuNDQ0Ii8+PC9nPjwvc3ZnPg==")}
+
+.t-center{text-align:center;line-height:1.5}
+
+a.link-blue{color:#61b3de;display:inline-block}
+a.link-blue:hover{line-height:16px;cursor:pointer;border-bottom:1px solid #61b3de;text-decoration:none}

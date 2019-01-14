@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<title>Sho.rt | URL Shortener</title>
+		<link rel="icon" href="{{ url_for('static',filename='icons/short.png') }}">
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}">
+	</head>
+
+	<body background="static/images/abc.jpg">
+			<div class="container container-pod shorten-container">
+					<h1 class="page-title t-center">Make links more manageable and Track Click Data</h1>
+					<div class="join t-center">URL shortening is a technique on the World Wide Web in which a Uniform Resource Locator (URL) may be made substantially shorter and still direct to the required page. This is achieved by using a redirect which links to the web page that has a long URL.
+						<a href="https://github.com/Chiragasourabh/URL_SHORTEN" target="_blank" class="link-blue">Source Code in GitHub Repo<i class="blue-arrow-small"></i></a>
+					</div>
+
+					<div id="form_container" class="t-center mid-container">
+						<form method="POST" action="/" name="shortenUrl" id="unAuthShortenForm">
+							<fieldset >
+								<input id="url" taborder="1" name="url" type="text" class="shorten-input" placeholder="Paste a link to shorten it" value="" autocomplete="off" autocorrect="off" autocapitalize="off" />
+								<input id="shorten_btn" type="submit" class="button button-primary shorten-button" value="Shorten" />
+							</fieldset>
+						</form>
+						{% if short_url %}
+						<div class="link-container mid-container">
+								<a href="{{o_url}}">{{o_url}}</a>
+								<div class="unauth_capsule">
+									<a class="short-url" href="{{short_url}}">{{short_url}}</a>
+									<input id="short-url-for-copy" class="copy-input" value="{{short_url}}" tabindex="-1" readonly="">
+									<button onclick="copyToClipboard('#short-url-for-copy')" class="copy button primary">Copy</button>
+								</div>
+						</div>
+						{% endif %}
+					</div>
+				</div>
+			<footer id="footer">
+				<div class="t-center">
+					<p class="">Designed and Developed By Chiragasourabh</p>
+				</div>
+			</footer>
+		</div>
+	</body>
+
+</html>
